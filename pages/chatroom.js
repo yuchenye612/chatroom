@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Router } from 'next/router';
+import { useRouter } from 'next/router';
 import { getFirestore, doc, onSnapshot, collection, addDoc, query, orderBy } from 'firebase/firestore';
 import 'bulma/css/bulma.css';
 import Link from 'next/link';
