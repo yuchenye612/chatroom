@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { auth } from '../firebase/config'; // Import the auth instance
 import { getFirestore, collection, query, where, onSnapshot, doc, setDoc, addDoc } from 'firebase/firestore'; // Import Firestore functions
 import 'bulma/css/bulma.css';
-import { useRouter } from 'next/router';
+import { Router } from 'next/router';
 import { signOut } from 'firebase/auth';
 
 export default function ChatroomsPage() {
